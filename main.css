@@ -55,12 +55,14 @@
   
   .logo {
     width: 400px;
-    height: 250px; }
+    height: 250px; 
+    display: flex;
+    justify-content: center;}
   
   .footer {
     display: flex;
     justify-content: space-between; }
-  
+
   @media screen and (max-width: 1400px) {
     .productos {
       grid-template-columns: repeat(6, 1fr);
